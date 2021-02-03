@@ -1,6 +1,6 @@
 {
-  "name": "patientregistration",
-  "version": "1.0.0",
+  "name": "Patient-registration",
+  "version": "1.0.1",
   "description": "Managment of patients",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yamuben/PatientRegistration.git"
+    "url": "git+https://github.com/Angelus123/Patient-Registration.git"
   },
   "dependencies": {
     "@babel/cli": "^7.8.3",
@@ -32,10 +32,10 @@
     "nodemon": "^2.0.7",
     "validator": "^13.5.2"
   },
-  "author": "Yamu",
+  "author": "Felix",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/yamuben/PatientRegistration/issues"
+    "url": "https://github.com/Angelus123/Patient-registration/issues"
   },
-  "homepage": "https://github.com/yamuben/PatientRegistration#readme"
+  "homepage": "https://github.com/Angelus123/Patient-registration#readme"
 }

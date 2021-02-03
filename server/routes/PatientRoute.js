@@ -4,20 +4,15 @@ import PatientInfos from "../models/Patient";
 
 const patientRouter = express.Router()
 
-//Add Submit POST Route
-patientRouter.post("/create",patientControl.createPatient)
+patientRouter.route("/")
+                   .post(patientControl.createPatient)
+                   .get(patientControl.getAllPatient)
+                   
 
-//Read Route
-patientRouter.get("/read/:id",patientControl.getPatient)
-
-//Update Submit POST Route
-patientRouter.post('/edit/:id', patientControl.updatePatient)
-
-//Delete Route
-patientRouter.delete('/delete/:id',patientControl.deletePatient)
-
-//Get All Route
-patientRouter.get("/getAll",patientControl.getAllPatient)
+patientRouter.route('/:id')
+                   .delete(patientControl.deletePatient)
+                   .patch(patientControl.updatePatient)
+                   .get(patientControl.getPatient)
 
 
 export default patientRouter;
