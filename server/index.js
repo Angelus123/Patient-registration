@@ -9,7 +9,7 @@ app.use(bodyParser.urlencoded({extended:true}));
 
 
 app.get('/', (req,res)=>{res.status(200).send({
-    status:200,
+    status:200, 
     message:'welcome to patiente registration',
 })})
 
