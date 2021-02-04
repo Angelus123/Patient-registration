@@ -103,4 +103,8 @@ dist
 # TernJS port file
 .tern-port
 # Img file
-image
+output-image
+# Tutorial
+quick-study
+#config
+config
