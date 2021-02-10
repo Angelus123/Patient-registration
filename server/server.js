@@ -2,6 +2,8 @@ import dotenv from "dotenv";
 import app from "./index";
 import mongoose from "mongoose";
 dotenv.config({ path: "./server/config.env" });
+
+
 const port = process.env.PORT;
 
 const DB = process.env.DATABASE;
