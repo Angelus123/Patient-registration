@@ -1,12 +1,11 @@
 import dotenv from "dotenv";
 import app from "./index";
 import mongoose from "mongoose";
-dotenv.config({ path: "./server/config.env" });
-
+dotenv.config({ path: "./config/config.env" }); 
 
 const port = process.env.PORT;
 
-const DB = process.env.DATABASE;
+const DB = process.env.DATABASE; 
 mongoose.connect(DB,{
     useNewUrlParser: true,
     useCreateIndex: true,
