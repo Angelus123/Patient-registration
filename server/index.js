@@ -20,7 +20,7 @@ next()
 })
 console.log(app.get('env'))
 
-app.use("/api/v3/patient",patientRouter)
+app.use("/api/v1/patient",patientRouter)
 app.all('*', (req,res,next) => {
     // res.status(404).json({
     //     status: 'fail',
