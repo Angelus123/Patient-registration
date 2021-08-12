@@ -19,11 +19,10 @@ patient management systems software handle all tasks necessary to run your medic
 * Install [Node js](https://nodejs.org/en/)
 * Clone Repo [Patient-registration](https://github.com/Angelus123/)
 
-```
-$ To move into folder
-```
+
+
 $ cd Patient-registration
-```
+
 Install dependincies as they appear in package.json file by
 
 ```
