@@ -4,9 +4,9 @@ patient management systems software handle all tasks necessary to run your medic
 
 ### Technology tools used in this Project
 
-* Server Side : **Node.js, Express **
-* Linting Library: **ESLint**
-* Database: **MongoDB*
+* Server Side : ** Node.js, Express **
+* Linting Library: ** ESLint **
+* Database: ** MongoDB **
 
 ### Additional Tools
 
